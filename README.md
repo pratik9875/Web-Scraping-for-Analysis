@@ -1,34 +1,37 @@
-# 📚 Web Scraping & Data Analysis – Books Dataset
+# 📚 Web Scraping, Data Cleaning & Power BI Dashboard – Books Dataset
 
-This project demonstrates how to scrape book data from a public website using Python, clean it, and store it for analysis.
+This project demonstrates how to scrape book data from a public website using Python, clean it, analyze it, and finally visualize it using an interactive **Power BI Dashboard**.
 
 ---
 
 ## 🚀 Project Overview
 
-This project extracts the following details from a books website:
+This project extracts the following details from an online books website:
 
-- Book Title  
-- Price  
-- Rating  
+- 📖 Book Title  
+- 💰 Price  
+- ⭐ Rating (converted into numeric format)  
 
-The scraped data is saved into a CSV file for further analysis.
+After scraping, the data is stored in a CSV file, cleaned, and then loaded into **Power BI** for an interactive dashboard.
 
 ---
 
 ## 🛠️ Technologies Used
 
+### **Backend/Data Extraction**
 - Python  
 - Requests  
 - BeautifulSoup  
 - Pandas  
 - Jupyter Notebook  
 
+### **Data Visualization**
+- Power BI  
+- DAX Measures  
+- Calculated Columns  
+- KPI Visuals  
+- Slicers & Bar Charts  
+
 ---
 
-## 📦 Installation
-
-Install the required libraries:
-
-```bash
-pip install requests beautifulsoup4 pandas
+ pandas
