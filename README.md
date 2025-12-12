@@ -32,6 +32,3 @@ After scraping, the data is stored in a CSV file, cleaned, and then loaded into 
 - KPI Visuals  
 - Slicers & Bar Charts  
 
----
-
- pandas
